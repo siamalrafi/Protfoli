@@ -13,8 +13,9 @@ const Home = () => {
                         Md Siam Al Rafi</h1>
                     <h1 className='my-10 font-bold text-3xl'>
                         I am A Web Developer.</h1>
-                    <button className="btn btn-primary text-center rounded mx-2">Hire Me</button>
-                    <button className="btn btn-outline text-primary rounded hover:bg-primary ">Resume</button>
+                    <button className="btn btn-primary text-center rounded mx-2">Get in Touch</button>
+                    <button className="btn btn-outline text-primary rounded hover:bg-primary ">
+                        Download Resume</button>
                 </div>
 
                 <div className='lg:m-12 flex flex-row-reverse'>
