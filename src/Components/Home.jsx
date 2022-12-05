@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <div className='grid md:grid-cols-2 sm:grid-cols-1 m-10 '>
+            <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-10 '>
 
                 <div className='lg:mt-24 h-96'>
                     <h1 className="text-2xl ">

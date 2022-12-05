@@ -4,16 +4,16 @@ const Navbar = () => {
     const manuItems = <React.Fragment>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a to='#home'>Home</a></li>
+            <a href='#home'>Home</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a href='#about'>About</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a to='/blogs'>Blogs</a></li>
+            <a href='#blogs'>Blogs</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a to='/contact'>Contact</a></li>
+            <a href='#contact'>Contact</a></li>
 
         <div className="form-control mt-2">
             <label className="label cursor-pointer">
