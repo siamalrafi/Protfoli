@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Home = () => {
     return (
@@ -12,7 +13,35 @@ const Home = () => {
                     <h1 className='my-3 font-bold uppercase text-5xl text-[#2563eb]'>
                         Md Siam Al Rafi</h1>
                     <h1 className='my-10 font-bold text-3xl'>
-                        I am A Web Developer.</h1>
+                        I am a <ReactTypingEffect
+                            text={["Web Developer.", "Programmer.", "Developer."]}
+                            cursorRenderer={cursor => <h1>{cursor}</h1>}
+                            displayTextRenderer={(text, i) => {
+                                return (
+                                    <h1>
+                                        {text.split('').map((char, i) => {
+                                            const key = `${i}`;
+                                            return (
+                                                <span
+                                                    key={key}
+
+                                                >{char}</span>
+                                            );
+                                        })}
+                                    </h1>
+                                );
+                            }}
+                        /></h1>
+
+
+
+
+
+
+
+
+
+
                     <button className="btn btn-primary text-center rounded mx-2">Get in Touch</button>
                     <button className="btn btn-outline text-primary rounded hover:bg-primary ">
                         Download Resume</button>
