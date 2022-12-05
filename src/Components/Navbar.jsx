@@ -4,10 +4,10 @@ const Navbar = () => {
     const manuItems = <React.Fragment>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a to='/'>Home</a></li>
+            <a to='#home'>Home</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a to='/'>About</a></li>
+            <a href='#about'>About</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a to='/blogs'>Blogs</a></li>

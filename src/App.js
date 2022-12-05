@@ -12,7 +12,6 @@ function App() {
 
         <AboutMe></AboutMe>
 
-
       </div>
     </div>
   );
