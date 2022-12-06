@@ -15,51 +15,83 @@ const MySkills = () => {
 
                 <div>
                     <h1>HTML</h1>
-                    <progress className="h-4 progress progress-primary w-56" value="95" max="100">95%</progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="95" max="100"></progress>
+                        <span>95%</span>
+                    </div>
                 </div>
+
                 <div>
                     <h1>CSS</h1>
-                    <progress className="h-4 progress progress-primary w-56" value="90" max="100">90%</progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="90" max="100"></progress>
+                        <span>90%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>JavaScript</h1>
-                    <progress className="h-4 progress progress-primary w-56" value="80" max="100">80%</progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="80" max="100"></progress>
+                        <span>80%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>Bootstrap</h1>
-                    <progress className="h-4 progress progress-primary w-56" value="95" max="100">95%</progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="95" max="100"></progress>
+                        <span>95%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>Tailwind</h1>
-                    <progress className="h-4 progress progress-primary w-56" value="95" max="100"><b className='text-red-700'>95%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="95" max="100"></progress>
+                        <span>95%</span>
+                    </div>
                 </div>
-
-
                 <div>
-                    <h1>React </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="80" max="100"><b className='text-red-700'>80%</b></progress>
+                    <h1>React</h1>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="80" max="100"></progress>
+                        <span>80%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>Node Js </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="75" max="100"><b className='text-red-700'>75%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="75" max="100"></progress>
+                        <span>75%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>MongoDb </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="75" max="100"><b className='text-red-700'>75%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="75" max="100"></progress>
+                        <span>75%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>Firebase </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="90" max="100"><b className='text-red-700'>90%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="90" max="100"></progress>
+                        <span>90%</span>
+                    </div>
                 </div>
-
                 <div>
                     <h1>Express Js </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="75" max="100"><b className='text-red-700'>75%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="75" max="100"></progress>
+                        <span>75%</span>
+                    </div>
                 </div>
                 <div>
                     <h1>Python </h1>
-                    <progress className="h-4 progress progress-primary w-56" value="30" max="100"><b className='text-red-700'>30%</b></progress>
+                    <div>
+                        <progress className="h-4 progress progress-primary w-56" value="30" max="100"></progress>
+                        <span>30%</span>
+                    </div>
                 </div>
+
             </div>
         </div >
     );
