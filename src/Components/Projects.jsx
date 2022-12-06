@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Projects = () => {
-    const Projects = [1, 2, 3, 4, 5, 6];
+    const Projects = [1, 2, 3, 4];
 
     return (
         <div>
@@ -12,19 +12,29 @@ const Projects = () => {
             </div>
 
 
-            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center mx-10'>
                 {
                     Projects.map((project, i) =>
 
-                        <div key={i} className="card w-80">
-                            <img
-                                className="rounded-xl"
-                                src="https://placeimg.com/400/225/arch" alt="Shoes" />
-                            <div className="card-body items-center text-center">
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div className="max-w-xs mt-10 rounded-md shadow hover:shadow-2xl">
+                            <img src="https://source.unsplash.com/random/300x300/?2" alt=""
+                                className="object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
+
+                            <div className="flex flex-col justify-between p-6 space-y-8">
+                                <div className="space-y-2">
+                                    <h2 className="text-black font-semibold tracking-wide">Donec lectus leo</h2>
+                                    <p className="text-black">Curabitur luctus erat nunc, sed ullamcorper erat vestibulum eget.</p>
+                                </div>
+
+                                <div className='my-8 text-center'>
+                                    <button className="btn btn-sm btn-outline text-black hover:bg-primary ">
+                                        GitHub</button>
+                                    <button className="btn btn-sm text-center rounded hover:bg-primary mx-4">Live  Link</button>
+                                </div>
+
                             </div>
                         </div>
+
                     )
                 }
 
@@ -34,7 +44,7 @@ const Projects = () => {
 
 
 
-        </div>
+        </div >
     );
 };
 
