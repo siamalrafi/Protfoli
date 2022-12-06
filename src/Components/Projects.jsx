@@ -13,7 +13,8 @@ const Projects = () => {
                     <span className='ml-3 text-primary'>works</span>
                 </h1>
             </div>
-            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center mx-24'>
+
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center lg:mx-24'>
                 {
                     Projects.map((project, i) =>
                         <div key={i} className="max-w-xs mt-10 rounded-md shadow hover:shadow-2xl">
@@ -28,10 +29,8 @@ const Projects = () => {
 
                                 <div className='my-8 text-center'>
                                     <button className="btn btn-sm btn-outline text-black hover:bg-primary ">
-
                                         {/* <FontAwesomeIcon icon={} /> */}
-
-
+                                    
                                         <span className='ml-2'>GitHub</span>
                                     </button>
                                     <button className="btn btn-sm text-center rounded hover mx-4">

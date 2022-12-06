@@ -6,7 +6,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
     return (
         <div>
-            <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-10 '>
+            <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-8'>
 
                 <div className='lg:mt-24 h-96'>
                     <h1 className="text-2xl ">
@@ -34,7 +34,8 @@ const Home = () => {
                             }}
                         /></h1>
                     <div className='flex'>
-                        <button className="btn btn-primary text-center rounded mx-2">Get in Touch</button>
+                        <button className="btn btn-primary text-center rounded mx-2">
+                            Get in Touch</button>
                         <button className="btn btn-outline text-primary rounded hover:bg-primary ">
                             <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                             <span className='ml-2'>

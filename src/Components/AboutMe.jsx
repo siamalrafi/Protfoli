@@ -1,3 +1,5 @@
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const AboutMe = () => {
@@ -28,7 +30,11 @@ const AboutMe = () => {
 
                         <div className='my-8'>
                             <button className="btn btn-outline text-primary  hover:bg-primary rounded-full">
-                                Download Resume</button>
+                                <FontAwesomeIcon icon={faDownload} />
+                                
+                                <span className='ml-2'>
+                                    Download Resume
+                                </span></button>
                             <button className="btn btn-primary text-center rounded mx-2">GitHub</button>
                         </div>
                     </div>
