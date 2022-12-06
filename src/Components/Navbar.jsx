@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
+
     const manuItems = <React.Fragment>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
@@ -10,10 +11,16 @@ const Navbar = () => {
             <a href='#about'>About</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a href='#blogs'>Blogs</a></li>
+            <a href='#skills'>My Skills</a></li>
+
+        <li className='hover:bg-red-500 font-bold rounded-lg'>
+            <a href='#projects'>Projects</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a href='#contact'>Contact</a></li>
+
+        <li className='hover:bg-red-500 font-bold rounded-lg'>
+            <a href='#contact'>Download Resume</a></li>
 
         <div className="form-control mt-2">
             <label className="label cursor-pointer">

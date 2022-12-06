@@ -9,10 +9,7 @@ const MySkills = () => {
                 </h1>
             </div>
 
-
-
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center'>
-
+            <div id='skills' className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-items-center'>
                 <div>
                     <h1>HTML</h1>
                     <div>
@@ -20,7 +17,6 @@ const MySkills = () => {
                         <span>95%</span>
                     </div>
                 </div>
-
                 <div>
                     <h1>CSS</h1>
                     <div>
