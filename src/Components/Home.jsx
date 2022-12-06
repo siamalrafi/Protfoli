@@ -4,6 +4,9 @@ import ReactTypingEffect from 'react-typing-effect';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
+
+
+    
     return (
         <div>
             <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-8'>
