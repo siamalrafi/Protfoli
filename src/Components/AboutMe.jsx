@@ -9,7 +9,6 @@ const AboutMe = () => {
                 </h1>
             </div>
 
-
             <div id='about' className="hero">
                 <div className="m-5 hero-content flex-col lg:flex-row">
                     <div className="avatar">
