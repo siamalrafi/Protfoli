@@ -3,10 +3,8 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
-const Home = () => {
+const Home = ({ handleDownload }) => {
 
-
-    
     return (
         <div>
             <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-8'>
@@ -39,7 +37,9 @@ const Home = () => {
                     <div className='flex'>
                         <button className="btn btn-primary text-center rounded mx-2">
                             Get in Touch</button>
-                        <button className="btn btn-outline text-primary rounded hover:bg-primary ">
+                        <button
+                            onClick={() => handleDownload()}
+                            className="btn btn-outline text-primary rounded hover:bg-primary ">
                             <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                             <span className='ml-2'>
                                 Download Resume
