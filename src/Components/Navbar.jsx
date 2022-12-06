@@ -19,9 +19,6 @@ const Navbar = () => {
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a href='#contact'>Contact</a></li>
 
-        <li className='hover:bg-red-500 font-bold rounded-lg'>
-            <a href='#contact'>Download Resume</a></li>
-
         <div className="form-control mt-2">
             <label className="label cursor-pointer">
             </label>

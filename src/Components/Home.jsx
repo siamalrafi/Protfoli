@@ -1,5 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     return (
@@ -24,7 +26,6 @@ const Home = () => {
                                             return (
                                                 <span
                                                     key={key}
-
                                                 >{char}</span>
                                             );
                                         })}
@@ -32,19 +33,15 @@ const Home = () => {
                                 );
                             }}
                         /></h1>
-
-
-
-
-
-
-
-
-
-
-                    <button className="btn btn-primary text-center rounded mx-2">Get in Touch</button>
-                    <button className="btn btn-outline text-primary rounded hover:bg-primary ">
-                        Download Resume</button>
+                    <div className='flex'>
+                        <button className="btn btn-primary text-center rounded mx-2">Get in Touch</button>
+                        <button className="btn btn-outline text-primary rounded hover:bg-primary ">
+                            <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                            <span className='ml-2'>
+                                Download Resume
+                            </span>
+                        </button>
+                    </div>
                 </div>
 
                 <div className='lg:m-12 flex flex-row-reverse'>
