@@ -16,21 +16,21 @@ const Contact = () => {
 
                 <div className='my-10 w-1/3'>
                     <div className='flex items-center gap-5 mx-5'>
-                        <FontAwesomeIcon icon={faPhone} />
+                        <FontAwesomeIcon icon={faPhone} className='text-2xl' />
                         <div>
                             <h1>Phone</h1>
                             <p>(+088)01815485598</p>
                         </div>
                     </div>
                     <div className='flex items-center my-5 gap-5 mx-5'>
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <FontAwesomeIcon icon={faEnvelope} className='text-2xl' />
                         <div>
                             <h1>Email</h1>
                             <p>rahathasandipto@gmail.com</p>
                         </div>
                     </div>
                     <div className='flex items-center gap-5 mx-5'>
-                        <FontAwesomeIcon icon={faLocation} />
+                        <FontAwesomeIcon icon={faLocation} className='text-2xl' />
                         <div>
                             <h1>Location</h1>
                             <p>Mymensingh<span>,Bangladesh</span> </p>

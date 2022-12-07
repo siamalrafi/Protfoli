@@ -30,7 +30,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl font-bold uppercase">Siam</a>
+                    <a href='/' className="btn btn-ghost text-xl font-bold uppercase">Siam</a>
                 </div>
                 <div className="flex-none">
                     <ul className=" navbar-center hidden lg:flex menu menu-horizontal p-0">

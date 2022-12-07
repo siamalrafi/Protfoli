@@ -20,22 +20,21 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
-                        <a href="#">
+                        <a href="https://www.linkedin.com/in/siamalrafi0/" target={'_blank'}>
                             <button>
                                 <FaLinkedin className='text-4xl hover:text-primary rounded-sm' />
                             </button>
                         </a>
 
-                        <a href="#">
+                        <a href="https://github.com/siamalrafi" target={'_blank'}>
                             <FaGithub className='text-4xl hover:text-primary rounded-sm' />
                         </a>
-                        <a>
 
+                        <a href='https://www.youtube.com/channel/UCVQVYjIkc4B6f-aJ95Z7ibw' target={'_blank'}>
                             <FaYoutube className='text-4xl hover:text-primary rounded-sm' />
-
                         </a>
 
-                        <a href="#">
+                        <a href="https://www.facebook.com/siamalrafi0/" target={'_blank'}>
                             <FaFacebookSquare className='text-4xl hover:text-primary rounded-sm' />
                         </a>
 
