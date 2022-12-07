@@ -33,7 +33,16 @@ const Projects = () => {
             Technology: 'React,Tailwind,Mongodb,Firebase, Private Route',
             img: 'https://source.unsplash.com/random/300x300/?2',
             githubUrl: 'https://github.com/siamalrafi/DOCHOUSE',
-            LiveUrl: 'hhttps://dochouse-88db5.web.app/'
+            LiveUrl: 'https://dochouse-88db5.web.app/'
+        },
+        {
+            id: 4,
+            name: "QuizMaster ",
+            description: 'This is a quiz application that you can quiz some interesting topics . There are some most popular and important topics.',
+            Technology: 'React,Tailwind,Mongodb,Firebase, Private Route',
+            img: 'https://source.unsplash.com/random/300x300/?2',
+            githubUrl: 'https://github.com/siamalrafi/QuizMaster-',
+            LiveUrl: 'https://idyllic-madeleine-af9e0e.netlify.app/'
         },
 
     ]
@@ -52,7 +61,7 @@ const Projects = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center lg:mx-24'>
                 {
                     projects.map((project, i) =>
-                        <div key={i} className="max-w-xs mt-5 rounded-md shadow hover:shadow-2xl">
+                        <div key={i} className="max-w-xs mt-10  rounded-md shadow-2xl hover:shadow-3xl shadow-blue-500/50">
                             <img src="https://source.unsplash.com/random/300x300/?2" alt=""
                                 className="object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
 
@@ -60,12 +69,10 @@ const Projects = () => {
                                 <div className="space-y-2">
                                     <h2 className="text-black font-semibold tracking-wide">{project.name}</h2>
                                     <p className="text-black">
-                                        {project.description}
+                                        {project.description.slice(0, 100)}
                                     </p>
                                     <p className='font-bold'>Technology : {project.Technology}</p>
                                 </div>
-
-
 
                                 <div className='my-8 text-center'>
                                     <a href={project.githubUrl} target="_blank" >
