@@ -1,6 +1,8 @@
+import React from 'react';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import { FaGithub } from 'react-icons/fa';
+
 
 
 const Projects = () => {
@@ -29,18 +31,17 @@ const Projects = () => {
 
                                 <div className='my-8 text-center'>
                                     <button className="btn btn-sm btn-outline text-black hover:bg-primary ">
-                                        {/* <FontAwesomeIcon icon={} /> */}
-                                    
-                                        <span className='ml-2'>GitHub</span>
+                                        <FaGithub />
+                                        <span className='ml-2'>
+
+                                            GitHub</span>
                                     </button>
                                     <button className="btn btn-sm text-center rounded hover mx-4">
                                         <FontAwesomeIcon icon={faEye} />
                                         <span className='ml-2'>Live Link</span></button>
                                 </div>
-
                             </div>
                         </div>
-
                     )
                 }
 

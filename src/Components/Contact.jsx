@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Contact = () => {
     return (
         <div>
-            <div className='text-center font-bold text-3xl rounded-box'>
+            <div id='contact' className='text-center font-bold text-3xl rounded-box'>
                 <h1 className='text-5xl my-20'>Get in
                     <span className='ml-3 text-primary'>Touch</span>
                 </h1>
