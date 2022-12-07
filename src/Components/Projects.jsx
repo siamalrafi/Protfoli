@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div id='projects'>
             <div className='text-center font-bold text-3xl rounded-box'>
-                <h1 className='text-5xl my-20'>My Recent
+                <h1 className='text-5xl my-16'>My Recent
                     <span className='ml-3 text-primary'>works</span>
                 </h1>
             </div>
@@ -17,7 +17,7 @@ const Projects = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center lg:mx-24'>
                 {
                     Projects.map((project, i) =>
-                        <div key={i} className="max-w-xs mt-10 rounded-md shadow hover:shadow-2xl">
+                        <div key={i} className="max-w-xs mt-5 rounded-md shadow hover:shadow-2xl">
                             <img src="https://source.unsplash.com/random/300x300/?2" alt=""
                                 className="object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
 

@@ -5,10 +5,9 @@ import Navbar from './Components/Navbar';
 import MySkills from './Components/MySkills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
-
-
   return (
     <div>
       <div>
@@ -19,6 +18,11 @@ function App() {
         <Projects></Projects>
         <Contact></Contact>
 
+
+
+
+
+        <Footer></Footer>
       </div>
     </div >
   );

@@ -37,13 +37,17 @@ const Home = () => {
                     <div className='flex'>
                         <button className="btn btn-primary text-center rounded mx-2">
                             Get in Touch</button>
-                        <button
-                            className="btn btn-outline text-primary rounded hover:bg-primary ">
-                            <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
-                            <span className='ml-2'>
-                                Download Resume
-                            </span>
-                        </button>
+                        <a href="https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9"
+                            role="button" target="_blank">
+
+                            <button
+                                className="btn btn-outline text-primary rounded hover:bg-primary ">
+                                <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                                <span className='ml-2'>
+                                    Download Resume
+                                </span>
+                            </button>
+                        </a>
 
                         {/* 
 https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9 */}

@@ -29,15 +29,22 @@ const AboutMe = () => {
                         </p>
 
                         <div className='my-8'>
-                            <button
-                                className="btn btn-outline text-primary  hover:bg-primary rounded-full">
-                                <FontAwesomeIcon icon={faDownload} />
+                            <a href="https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9"
+                                role="button" target="_blank">
+                                <button
+                                    className="btn btn-outline text-primary  hover:bg-primary rounded-full">
+                                    <FontAwesomeIcon icon={faDownload} />
+                                    <span className='ml-2'>
+                                        Download Resume
+                                    </span>
+                                </button>
+                            </a>
 
-                                <span className='ml-2'>
-                                    Download Resume
-                                </span></button>
-
-
+                            <a href="https://github.com/siamalrafi" target={'_blank'}>
+                                <button className="btn btn-primary text-center rounded mx-2">
+                                    GitHub
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
