@@ -1,9 +1,10 @@
 import React from 'react';
+import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
     return (
         <div>
-
             <div className='text-center font-bold text-3xl rounded-box'>
                 <h1 className='text-5xl my-20'>Get in
                     <span className='ml-3 text-primary'>Touch</span>
@@ -11,21 +12,29 @@ const Contact = () => {
             </div>
 
 
-
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-10'>
 
                 <div className='my-10 w-1/3'>
-                    <div>
-                        <h1>Phone</h1>
-                        <p>(+088)01815485598</p>
+                    <div className='flex items-center gap-5 mx-5'>
+                        <FontAwesomeIcon icon={faPhone} />
+                        <div>
+                            <h1>Phone</h1>
+                            <p>(+088)01815485598</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1>Email</h1>
-                        <p>rahathasandipto@gmail.com</p>
+                    <div className='flex items-center my-5 gap-5 mx-5'>
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        <div>
+                            <h1>Email</h1>
+                            <p>rahathasandipto@gmail.com</p>
+                        </div>
                     </div>
-                    <div>
-                        <h1>Location</h1>
-                        <p>Mymensingh, Bangladesh</p>
+                    <div className='flex items-center gap-5 mx-5'>
+                        <FontAwesomeIcon icon={faLocation} />
+                        <div>
+                            <h1>Location</h1>
+                            <p>Mymensingh<span>,Bangladesh</span> </p>
+                        </div>
                     </div>
                 </div>
 
