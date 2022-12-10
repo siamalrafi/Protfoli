@@ -13,7 +13,7 @@ const AboutMe = () => {
                 </h1>
             </div>
 
-            <div id='about' data-aos="flip-left" data-aos-duration="800"
+            <div id='about' data-aos="flip-left" data-aos-duration="1000"
                 className="hero">
                 <div className="m-5 hero-content flex-col lg:flex-row">
                     <div className="avatar">
