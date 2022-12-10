@@ -3,6 +3,22 @@ import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-ico
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
+
+    const seendMassage = (event) => {
+        event.preventDefault();
+
+        const form = event.target;
+        const name = form.name.value;
+        const email = form.email.value;
+        const massage = form.massage.value;
+        console.log(name, email, massage);
+
+
+    }
+
+
+
+
     return (
         <div>
             <div id='contact' className='text-center font-bold text-3xl rounded-box'>
@@ -10,7 +26,6 @@ const Contact = () => {
                     <span className='ml-3 text-primary'>Touch</span>
                 </h1>
             </div>
-
 
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-10'>
 
@@ -39,23 +54,28 @@ const Contact = () => {
                 </div>
 
                 <div data-aos="fade-left" data-aos-duration="500">
-                    <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
-                        <div className='my-3'>
-                            <label htmlFor="name" className="">Name</ label>
-                            <br />
-                            <input type="text" placeholder="Type your Name" className="input input-bordered input-md w-full max-w-xs" required />
+                    <form onSubmit={seendMassage}>
+                        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
+                            <div className='my-3'>
+                                <label htmlFor="name" className="">Name</ label>
+                                <br />
+                                <input name='name' type="text" placeholder="Type your Name" className="input input-bordered input-md w-full max-w-xs" required />
+                            </div>
+                            <div className='my-3'>
+                                <label htmlFor="email" className="">Email</ label>
+                                <br />
+                                <input name='email' type="email" placeholder="Type Your Email" className="input input-bordered input-md w-full max-w-xs" required />
+                            </div>
                         </div>
-                        <div className='my-3'>
-                            <label htmlFor="email" className="">Email</ label>
-                            <br />
-                            <input type="email" placeholder="Type Your Email" className="input input-bordered input-md w-full max-w-xs" required />
+                        <div>
+                            <label htmlFor="name" className="">Massage</ label>
+                            <textarea name='massage' type='text' className=" textarea w-full textarea-bordered" placeholder="Write your massage"></textarea>
                         </div>
-                    </div>
-                    <div>
-                        <label htmlFor="name" className="">Massage</ label>
-                        <textarea className=" textarea w-full textarea-bordered" placeholder="Write your massage"></textarea>
-                    </div>
-                    <button className='btn btn-primary my-5'>Send Massage</button>
+                        {/* <button className='btn btn-primary my-5'>Send Massage</button> */}
+                        <input type="submit" className='btn btn-primary my-5' value="Send Massage" />
+                    </form>
+
+
                 </div>
             </div>
         </div>
