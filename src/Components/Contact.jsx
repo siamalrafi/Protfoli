@@ -5,8 +5,6 @@ import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
 
-
-
 const Contact = () => {
     const form = useRef();
 
@@ -25,7 +23,6 @@ const Contact = () => {
                 console.log('error');
             });
     };
-
 
 
     return (
@@ -60,7 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div data-aos="fade-left" data-aos-duration="500">
+                <div data-aos="fade-down" >
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
                             <div className='my-3'>

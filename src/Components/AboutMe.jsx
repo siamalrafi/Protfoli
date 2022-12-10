@@ -13,13 +13,12 @@ const AboutMe = () => {
                 </h1>
             </div>
 
-            <div id='about' data-aos="flip-left"  data-aos-duration="500" className="hero">
+            <div id='about' data-aos="flip-left" data-aos-duration="800"
+                className="hero">
                 <div className="m-5 hero-content flex-col lg:flex-row">
                     <div className="avatar">
                         <div className="w-80 mask mask-squircle">
                             <img
-
-                                // src="https://placeimg.com/192/192/people" />
                                 src={imgAbout} alt='about-img' />
                         </div>
                     </div>
