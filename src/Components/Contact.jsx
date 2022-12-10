@@ -2,31 +2,13 @@ import React, { useRef } from 'react';
 import { faEnvelope, faLocation, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from 'react-hot-toast';
+
+
 
 
 const Contact = () => {
     const form = useRef();
-
-    /*   const seendMassage = (event) => {
-          event.preventDefault();
-  
-          emailjs.sendForm('YOUR_SERVICE_ID',
-              'YOUR_TEMPLATE_ID',
-              form.current, 'YOUR_PUBLIC_KEY')
-              .then((result) => {
-                  console.log(result.text);
-              }, (error) => {
-                  console.log(error.text);
-              });
-          const form = event.target;
-          const name = form.name.value;
-          const email = form.email.value;
-          const massage = form.massage.value;
-          console.log(name, email, massage);
-  
-  
-      }
-   */
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -37,7 +19,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 console.log('Your massage has been sent.');
-                form.reset()
+                toast.success("Thanks for your feedback!");
             }, (error) => {
                 console.log(error.text);
                 console.log('error');
@@ -96,11 +78,9 @@ const Contact = () => {
                             <label htmlFor="name" className="">Massage</ label>
                             <textarea name='message' type='text' className=" textarea w-full textarea-bordered" placeholder="Write your massage"></textarea>
                         </div>
-                        {/* <button className='btn btn-primary my-5'>Send Massage</button> */}
+                        <Toaster />
                         <input type="submit" className='btn btn-primary my-5' value="Send Massage" />
                     </form>
-
-
                 </div>
             </div>
         </div>
