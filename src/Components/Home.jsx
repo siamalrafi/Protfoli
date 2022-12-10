@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import protfolioImg from '../assets/protfolio-img.png';
+
 
 const Home = () => {
 
@@ -58,8 +60,10 @@ https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9
 
                 <div className='lg:m-12 flex flex-row-reverse'>
                     <div className="avatar">
-                        <div className="w-80 mask mask-hexagon">
-                            <img src="https://placeimg.com/192/192/people" />
+                        <div className="w-96 mask mask-hexagon">
+                            <img
+                                // src="https://placeimg.com/192/192/people" />
+                                src={protfolioImg} />
                         </div>
                     </div>
                 </div>

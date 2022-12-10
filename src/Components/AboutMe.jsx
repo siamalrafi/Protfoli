@@ -1,6 +1,8 @@
+import React from 'react';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import imgAbout from '../assets/protfolio-img.png';
+
 
 const AboutMe = () => {
     return (
@@ -15,7 +17,9 @@ const AboutMe = () => {
                 <div className="m-5 hero-content flex-col lg:flex-row">
                     <div className="avatar">
                         <div className="w-80 mask mask-squircle">
-                            <img src="https://placeimg.com/192/192/people" />
+                            <img 
+                            // src="https://placeimg.com/192/192/people" />
+                            src={imgAbout} alt='about-img' />
                         </div>
                     </div>
 
