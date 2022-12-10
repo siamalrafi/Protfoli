@@ -14,7 +14,7 @@ const Contact = () => {
 
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 mx-10'>
 
-                <div className='my-10 w-1/3'>
+                <div data-aos="fade-right" data-aos-duration="500" className='my-10 w-1/3'>
                     <div className='flex items-center gap-5 mx-5'>
                         <FontAwesomeIcon icon={faPhone} className='text-2xl' />
                         <div>
@@ -38,7 +38,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div>
+                <div data-aos="fade-left" data-aos-duration="500">
                     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 '>
                         <div className='my-3'>
                             <label htmlFor="name" className="">Name</ label>

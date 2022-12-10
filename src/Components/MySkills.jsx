@@ -2,7 +2,9 @@ import React from 'react';
 
 const MySkills = () => {
     return (
-        <div  id='skills'>
+        <div id='skills' data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000">
             <div className='my-20 text-center font-bold text-3xl rounded-box'>
                 <h1 className='text-5xl my-10'>My
                     <span className='ml-3 text-primary'>Skills</span>

@@ -61,7 +61,8 @@ const Projects = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center lg:mx-24'>
                 {
                     projects.map((project, i) =>
-                        <div key={i} className="max-w-xs mt-10  rounded-md shadow-2xl hover:shadow-3xl shadow-blue-500/50">
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000" key={i} className="max-w-xs mt-10  rounded-md shadow-2xl hover:shadow-3xl shadow-blue-500/50">
                             <img src="https://source.unsplash.com/random/300x300/?2" alt=""
                                 className="object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
 

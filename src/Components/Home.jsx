@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <div id='home' className='grid md:grid-cols-2 sm:grid-cols-1 m-8'>
 
-                <div className='lg:mt-24 h-96'>
+                <div data-aos="fade-right"  data-aos-duration="500" className='lg:mt-24 h-96'>
                     <h1 className="text-2xl ">
                         Hi! I am
                     </h1>
@@ -58,7 +58,7 @@ https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9
                     </div>
                 </div>
 
-                <div className='lg:m-12 flex flex-row-reverse'>
+                <div data-aos="fade-left"  data-aos-duration="500" className='lg:m-12 flex flex-row-reverse'>
                     <div className="avatar">
                         <div className="w-96 mask mask-hexagon">
                             <img
