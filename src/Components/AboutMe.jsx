@@ -18,6 +18,7 @@ const AboutMe = () => {
                     <div className="avatar">
                         <div className="w-80 mask mask-squircle">
                             <img 
+                            
                             // src="https://placeimg.com/192/192/people" />
                             src={imgAbout} alt='about-img' />
                         </div>
