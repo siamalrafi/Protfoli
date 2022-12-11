@@ -15,6 +15,8 @@ const Navbar = () => {
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a href='#projects'>Projects</a></li>
+        <li className='hover:bg-red-500 font-bold rounded-lg'>
+            <a href='#blogs'>Blogs</a></li>
 
         <li className='hover:bg-red-500 font-bold rounded-lg'>
             <a href='#contact'>Contact</a></li>

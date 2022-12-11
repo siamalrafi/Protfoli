@@ -10,7 +10,7 @@ import project4 from '../assets/Project/project4.png'
 
 
 const Projects = () => {
-   
+
 
     const projects = [
         {
@@ -88,15 +88,31 @@ const Projects = () => {
                                                 GitHub</span>
                                         </button>
                                     </a>
-                              
+
                                     <a href={project.LiveUrl} target="_blank" >
                                         <button className="btn btn-sm text-center rounded hover mx-4">
                                             <FontAwesomeIcon icon={faEye} />
                                             <span className='ml-2'>Live Link</span></button>
                                     </a>
                                 </div>
+
+
                                 <div className='flex justify-center'>
-                                    <button className='btn bg-gradient-to-r from-blue-500 to-cyan-700 '>Learn more</button>
+                                    <label htmlFor="my-modal-5" className="btn bg-gradient-to-r from-blue-500 to-cyan-700 ">open modal</label>
+                                </div>
+
+
+                                {/* Put this part before </body> tag */}
+                                <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+                                <div className="modal">
+                                    <div className="modal-box w-11/12 max-w-5xl">
+                                        <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
+                                        <p>{project.description}</p>
+                                        <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+                                        <div className="modal-action">
+                                            <label htmlFor="my-modal-5" className="btn">Yay!</label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
