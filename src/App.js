@@ -17,11 +17,6 @@ function App() {
         <MySkills></MySkills>
         <Projects></Projects>
         <Contact></Contact>
-
-
-
-
-
         <Footer></Footer>
       </div>
     </div >

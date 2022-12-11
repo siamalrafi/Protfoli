@@ -10,7 +10,7 @@ import project4 from '../assets/Project/project4.png'
 
 
 const Projects = () => {
-    // const Projects = [1, 2, 3, 4];
+    // #fcca53
     const projects = [
         {
             id: 1,
@@ -68,9 +68,9 @@ const Projects = () => {
                         <div data-aos="fade-up"
                             data-aos-duration="1000" key={i} className="max-w-xs mt-10  rounded-md shadow-2xl hover:shadow-3xl shadow-blue-500/50">
                             <img src={project.img} alt="project.img"
-                                className="object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
+                                className="border-2 border-black object-cover object-center w-full rounded-t-md h-52 dark:bg-gray-500" />
 
-                            <div className="flex flex-col justify-between p-6 space-y-8">
+                            <div className="flex flex-col justify-between p-6">
                                 <div className="space-y-2">
                                     <h2 className="text-black font-semibold tracking-wide">{project.name}</h2>
                                     <p className="text-black">
@@ -92,6 +92,9 @@ const Projects = () => {
                                             <FontAwesomeIcon icon={faEye} />
                                             <span className='ml-2'>Live Link</span></button>
                                     </a>
+                                </div>
+                                <div className='flex justify-center'>
+                                    <button className='btn bg-gradient-to-r from-blue-500 to-cyan-700 '>Learn more</button>
                                 </div>
                             </div>
                         </div>
