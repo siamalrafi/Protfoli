@@ -87,6 +87,7 @@ const Projects = () => {
                                                 GitHub</span>
                                         </button>
                                     </a>
+                              
                                     <a href={project.LiveUrl} target="_blank" >
                                         <button className="btn btn-sm text-center rounded hover mx-4">
                                             <FontAwesomeIcon icon={faEye} />
