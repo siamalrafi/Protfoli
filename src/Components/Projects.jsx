@@ -10,7 +10,8 @@ import project4 from '../assets/Project/project4.png'
 
 
 const Projects = () => {
-    // #fcca53
+   
+
     const projects = [
         {
             id: 1,
