@@ -5,7 +5,7 @@ const Blogs = () => {
         <div>
             <div id='blogs' data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="800">
+                data-aos-duration="500">
                 <div className='my-20 text-center font-bold text-3xl rounded-box'>
                     <h1 className='text-5xl my-10'>My
                         <span className='ml-3 text-primary'>Blogs</span>

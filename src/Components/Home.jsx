@@ -68,8 +68,6 @@ https://drive.google.com/uc?export=download&id=1F23BtqyuO9jKW0Qykq0bIlW-T4dzbAR9
                     </div>
                 </div>
             </div>
-
-
         </div >
     );
 };

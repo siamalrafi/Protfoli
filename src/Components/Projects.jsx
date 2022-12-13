@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaGithub } from 'react-icons/fa';
@@ -10,6 +10,7 @@ import project4 from '../assets/Project/project4.png'
 
 
 const Projects = () => {
+    const [openId, setopenId] = useState();
 
 
     const projects = [
@@ -98,7 +99,9 @@ const Projects = () => {
 
 
                                 <div className='flex justify-center'>
-                                    <label htmlFor="my-modal-5" className="btn bg-gradient-to-r from-blue-500 to-cyan-700 ">open modal</label>
+                                    <label
+                                        onClick={() => setopenId(project.id)}
+                                        htmlFor="my-modal-5" className="btn bg-gradient-to-r from-blue-500 to-cyan-700 ">open modal</label>
                                 </div>
 
 
