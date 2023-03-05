@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { FaGithub } from 'react-icons/fa';
-import project1 from '../assets/Project/project1.png'
-import project2 from '../assets/Project/project2.png'
-import project3 from '../assets/Project/project3.png'
-import project4 from '../assets/Project/project4.png'
 import SingleProject from './SingleProject';
+import project1 from '../assets/Project/project1.png';
+import project2 from '../assets/Project/project2.png';
+import project4 from '../assets/Project/project4.png';
+import project5 from '../assets/Project/project5.png';
 
 
 
@@ -17,6 +14,15 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
+            name: "DocService",
+            description: "This project was very interesting for me because in this project I can implement my own thinking and creativity. I always try to learn something new and to explore extra features that I don't know. In this project, I use Stripe payment system, react-hook-form, react-day-picker, react-multi-carousel etc. Which is very interesting and attractive. I used JWT(JSON Web Token) in this project. Which is more stale security for my website.",
+            Technology: ' React,Tailwind,Daisy Ui,Mongodb,Firebase.',
+            img: project5,
+            githubUrl: 'https://github.com/siamalrafi/docservice',
+            LiveUrl: 'https://docservice-1932a.web.app/'
+        },
+        {
+            id: 2,
             name: "Mirraw E-commerce",
             description: "This is a simple e-commerce website . There are several types of second hand products available. You can sell and buy any products if you want to purchase. There are many different Seller who are want to sell there products in this website",
             Technology: ' React,Tailwind,Daisy Ui,Mongodb,Firebase.',
@@ -25,22 +31,13 @@ const Projects = () => {
             LiveUrl: 'https://mirraw-ebac6.web.app/'
         },
         {
-            id: 2,
+            id: 3,
             name: "Skillshare Academy",
             description: "This project was bootstrapped with Create React App. This is the top class online education platform in the world. In this platform you can learn something new . Many online course are available in here",
             Technology: 'React,Tailwind,Mongodb,Firebase, Private Route,Pdf package',
             img: project2,
             githubUrl: 'https://github.com/siamalrafi/Skillshare-Academy-projects',
             LiveUrl: 'https://skillshare-academy.web.app/'
-        },
-        {
-            id: 3,
-            name: "Dochouse",
-            description: 'The DOCHOUSE is a medical service provider that provider various service in reasonable price.This service provider has some extra facilities to handle the customers and get teh best service. The Family Package are very popular in this situation',
-            Technology: 'React,Tailwind,Mongodb,Firebase, Private Route',
-            img: project3,
-            githubUrl: 'https://github.com/siamalrafi/DOCHOUSE',
-            LiveUrl: 'https://dochouse-88db5.web.app/'
         },
         {
             id: 4,
