@@ -18,6 +18,7 @@ const Projects = () => {
             description: "This project was very interesting for me because in this project I can implement my own thinking and creativity. I always try to learn something new and to explore extra features that I don't know. In this project, I use Stripe payment system, react-hook-form, react-day-picker, react-multi-carousel etc. Which is very interesting and attractive. I used JWT(JSON Web Token) in this project. Which is more stale security for my website.",
             Technology: ' React,Tailwind,Daisy Ui,Mongodb,Firebase.',
             img: project5,
+            Features: ['Light/dark mode toggle','Dynamic route facility, good UI/UX experience '],
             githubUrl: 'https://github.com/siamalrafi/docservice',
             LiveUrl: 'https://docservice-1932a.web.app/'
         },
@@ -68,16 +69,10 @@ const Projects = () => {
                             project={project}
                             setSelectedProject={setSelectedProject}
                             selectedProject={selectedProject}>
-
                         </SingleProject>
                     )
                 }
-
-
             </div>
-
-
-
 
         </div >
     );

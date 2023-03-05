@@ -5,6 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const SingleProject = ({ project, setSelectedProject, selectedProject }) => {
 
+
     return (
         <div>
             <div data-aos="fade-up"
@@ -18,6 +19,7 @@ const SingleProject = ({ project, setSelectedProject, selectedProject }) => {
                         <p className="text-black">
                             {project.description.slice(0, 100)}
                         </p>
+
                         <p className='font-bold'>Technology : {project.Technology}</p>
                     </div>
 
@@ -38,14 +40,20 @@ const SingleProject = ({ project, setSelectedProject, selectedProject }) => {
                     </div>
 
 
-                    <div className='flex justify-center'>
+
+
+                    {/* -------------------------
+Selected Projects are not open yet.
+--------------------------------- */}
+
+
+
+                    {/*  <div className='flex justify-center'>
                         <label
                             onClick={() => setSelectedProject(project)}
-                            htmlFor="my-modal-5" className="btn bg-gradient-to-r from-blue-500 to-cyan-700 ">open modal</label>
+                            htmlFor="my-modal-5" className="btn bg-gradient-to-r from-blue-500 to-cyan-700 ">Details</label>
                     </div>
 
-
-                    {/* Put this part before </body> tag */}
                     <input type="checkbox" id="my-modal-5" className="modal-toggle" />
                     <div className="modal">
                         <div className="modal-box w-11/12 max-w-5xl">
@@ -57,6 +65,10 @@ const SingleProject = ({ project, setSelectedProject, selectedProject }) => {
                             </div>
                         </div>
                     </div>
+ */}
+                    {/* -------------------------
+--------------------------------
+--------------------------------- */}
                 </div>
             </div>
         </div>
