@@ -11,7 +11,6 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div>
-      <div>
         <Navbar></Navbar>
         <Home></Home>
         <AboutMe></AboutMe>
@@ -21,7 +20,6 @@ function App() {
         <Contact></Contact>
         <Footer></Footer>
       </div>
-    </div >
   );
 }
 
