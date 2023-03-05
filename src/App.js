@@ -19,6 +19,8 @@ function App() {
       <Blogs />
       <Contact />
       <Footer />
+
+      {/* google fonts use */}
     </div>
   );
 }
